@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* { scroll-behavior: smooth; box-sizing: border-box; }
+
+body {
+  background: #0D0D0D;
+  color: #FFFFFF;
+  font-family: 'DM Sans', system-ui, sans-serif;
+}
+
+.font-display { font-family: 'DM Serif Display', Georgia, serif; }
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+@keyframes glow-pulse { 0%, 100% { box-shadow: 0 0 20px rgba(245,158,11,0.3); } 50% { box-shadow: 0 0 40px rgba(245,158,11,0.6); } }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes wa-ring { 0% { transform: scale(1); opacity: 0.5; } 100% { transform: scale(1.6); opacity: 0; } }
+
+.anim-up { animation: fade-up 0.8s ease-out both; }
+.anim-up-d1 { animation: fade-up 0.8s ease-out 0.15s both; }
+.anim-up-d2 { animation: fade-up 0.8s ease-out 0.3s both; }
+.anim-up-d3 { animation: fade-up 0.8s ease-out 0.45s both; }
+.anim-ticker { animation: ticker 30s linear infinite; }
+.anim-glow { animation: glow-pulse 3s ease-in-out infinite; }
+.anim-float { animation: float 4s ease-in-out infinite; }
+.anim-wa-ring { animation: wa-ring 2s ease-out infinite; }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #0D0D0D; }
+::-webkit-scrollbar-thumb { background: #F59E0B; border-radius: 3px; }
