@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/5 pt-6 text-center">
-          <p className="text-muted text-xs">&copy; 2026 Vijay Fitness. All rights reserved.</p>
+          <p className="text-muted text-xs">&copy; 2026 Bijay Fitness. All rights reserved.</p>
         </div>
       </div>
     </footer>

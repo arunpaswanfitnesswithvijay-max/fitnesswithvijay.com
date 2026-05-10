@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "Vijay | Elite Personal Fitness Trainer",
+  title: "Bijay | Elite Personal Fitness Trainer",
   description: "Transform your body with Vijay — certified personal trainer specializing in fat loss, muscle building, HIIT, and functional fitness. Book your free consultation today.",
 };
 

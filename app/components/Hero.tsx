@@ -34,7 +34,7 @@ export default function Hero() {
             </h1>
             <div className="anim-up-d1 flex flex-wrap items-center gap-3 mb-3">
               <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] uppercase">With</h1>
-              <span className="text-6xl sm:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] text-accent uppercase">Vijay</span>
+              <span className="text-6xl sm:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] text-accent uppercase">Bijay</span>
             </div>
 
             <p className="anim-up-d2 text-muted text-lg max-w-md leading-relaxed mb-10">
@@ -68,7 +68,7 @@ export default function Hero() {
             <div className="relative w-full max-w-sm lg:max-w-full aspect-[3/4] rounded-[40px] overflow-hidden border border-white/5">
               <Image
                 src="/vijayphoto.png"
-                alt="Vijay — Personal Fitness Trainer"
+                alt="Bijay — Personal Fitness Trainer"
                 fill
                 className="object-cover object-top"
                 priority

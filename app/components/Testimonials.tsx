@@ -3,37 +3,37 @@ export default function Testimonials() {
     {
       name: "Meera S.",
       role: "Lost 12 kg in 3 months",
-      text: "Vijay completely changed how I think about fitness. The program was tough but manageable, and the nutrition guidance made all the difference. I finally have the body I always wanted.",
+      text: "Bijay completely changed how I think about fitness. The program was tough but manageable, and the nutrition guidance made all the difference. I finally have the body I always wanted.",
       avatar: "M",
     },
     {
       name: "Karthik R.",
       role: "Gained 8 kg muscle in 4 months",
-      text: "I was a skinny guy who had tried everything. Vijay's structured bulking program with proper progressive overload finally got me results. My confidence is through the roof.",
+      text: "I was a skinny guy who had tried everything. Bijay's structured bulking program with proper progressive overload finally got me results. My confidence is through the roof.",
       avatar: "K",
     },
     {
       name: "Priya N.",
       role: "Online coaching client",
-      text: "Being in a different city, I was skeptical about online coaching. But Vijay's check-ins, video form reviews, and constant WhatsApp support made it feel like he was right there with me.",
+      text: "Being in a different city, I was skeptical about online coaching. But Bijay's check-ins, video form reviews, and constant WhatsApp support made it feel like he was right there with me.",
       avatar: "P",
     },
     {
       name: "Suresh T.",
       role: "HIIT & conditioning",
-      text: "My stamina was terrible. After 8 weeks of Vijay's HIIT program, I ran my first 10K. The workouts are intense but the results speak for themselves.",
+      text: "My stamina was terrible. After 8 weeks of Bijay's HIIT program, I ran my first 10K. The workouts are intense but the results speak for themselves.",
       avatar: "S",
     },
     {
       name: "Ananya B.",
       role: "Post-pregnancy transformation",
-      text: "Vijay was incredibly patient and designed a safe program for my post-pregnancy recovery. Six months later I'm stronger than I was before pregnancy. Absolutely recommend.",
+      text: "Bijay was incredibly patient and designed a safe program for my post-pregnancy recovery. Six months later I'm stronger than I was before pregnancy. Absolutely recommend.",
       avatar: "A",
     },
     {
       name: "Dev M.",
       role: "Competition prep",
-      text: "Vijay prepped me for my first physique competition. His attention to detail on peak week, posing, and diet was exceptional. Placed 2nd in my category!",
+      text: "Bijay prepped me for my first physique competition. His attention to detail on peak week, posing, and diet was exceptional. Placed 2nd in my category!",
       avatar: "D",
     },
   ];
@@ -44,7 +44,7 @@ export default function Testimonials() {
         <span className="text-xs text-accent tracking-widest uppercase font-semibold mb-4 block">Testimonials</span>
         <h2 className="text-4xl md:text-5xl font-black leading-tight mb-16 max-w-2xl">
           What clients say about{" "}
-          <span className="font-display italic font-normal text-muted">training with Vijay.</span>
+          <span className="font-display italic font-normal text-muted">training with Bijay.</span>
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
