@@ -12,13 +12,13 @@ export default function About() {
         <div className="grid lg:grid-cols-[1fr_1.2fr] gap-16 items-start">
           {/* Left */}
           <div>
-            <span className="text-xs text-accent tracking-widest uppercase font-semibold mb-4 block">About Vijay</span>
+            <span className="text-xs text-accent tracking-widest uppercase font-semibold mb-4 block">About Bijay</span>
             <h2 className="text-4xl md:text-5xl font-black leading-tight mb-6">
               Your results are my{" "}
               <span className="font-display italic font-normal text-muted">obsession.</span>
             </h2>
             <p className="text-muted leading-relaxed mb-6">
-              I&apos;m Vijay — a certified personal trainer with 8+ years of hands-on experience helping people in Bengaluru and online completely transform their bodies and mindset.
+              I&apos;m Bijay — a certified personal trainer with 8+ years of hands-on experience helping people in Bengaluru and online completely transform their bodies and mindset.
             </p>
             <p className="text-muted leading-relaxed mb-10">
               I specialize in fat loss, functional strength, and HIIT programming. My approach combines smart training with sustainable nutrition — no crash diets, no cookie-cutter plans.

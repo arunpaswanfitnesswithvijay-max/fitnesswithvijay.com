@@ -25,7 +25,7 @@ export default function Navbar() {
     <nav className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled ? "bg-bg/95 backdrop-blur-xl border-b border-white/5" : "bg-transparent"}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
         <Link href="/" className="font-display text-xl font-bold">
-          <span className="text-accent">V</span>ijay
+          <span className="text-accent">BIJAY</span>
           <span className="text-accent text-xs ml-1 font-sans font-normal tracking-widest uppercase">Fitness</span>
         </Link>
 
